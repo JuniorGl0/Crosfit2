@@ -1,0 +1,13 @@
+.MENU-NAV {
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+ 
+    .navbar-brand{
+        color: orange;
+        font-size: 24px;
+        font-weight: bold;
+        transition: 0,03;
+    }
+
+}

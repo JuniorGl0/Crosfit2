@@ -1,0 +1,290 @@
+/*Import base */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+/*Estilos generales*/
+/*Reset*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: bisque;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  position: static;
+  top: 0%;
+  background-color: black;
+}
+
+.animacion {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #eee;
+}
+
+.caja {
+  width: 90%;
+  height: 237px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  animation-name: animantion;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-duration: 2s;
+  transform: translateX(0);
+}
+.caja img {
+  width: 24%;
+}
+.caja body {
+  padding: 10px;
+}
+
+@keyframes animacion {
+  0% {
+    transform: translateX(-150%);
+    opacity: 0%;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.MENU-NAV {
+  padding: 0%;
+  display: flex;
+  justify-content: center;
+}
+.MENU-NAV .navbar-brand {
+  color: orange;
+  font-size: 24px;
+  font-weight: bold;
+  transition: 0, 3;
+}
+
+.footer ul {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  text-align: center;
+}
+ul li {
+  list-style: none;
+  display: inline-block;
+  color: rgb(234, 234, 234);
+  margin: 0px 10px;
+}
+ul a {
+  color: rgb(234, 234, 234);
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  background-position: 50%, 100%;
+  background-repeat: no-repeat;
+  background-size: 0% o, 3s;
+}
+ul a :hover {
+  background-image: linear-gradient(orange, orange);
+  background-size: 100%, 3px;
+}
+
+/*INDEX*/
+.Principal2 img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+h1 {
+  color: rgb(234, 234, 234);
+  font-size: 25px;
+  font-weight: bold;
+  margin: 30px 0;
+  /* padding: 10px;*/
+}
+
+h2 {
+  color: rgb(234, 234, 234);
+  font-size: 25px;
+  font-weight: bold;
+  margin: 30px 0;
+  /* padding: 10px;*/
+}
+
+/*COACHS*/
+.coach {
+  display: flex;
+  justify-content: center;
+}
+
+.entre {
+  display: flex;
+  justify-content: center;
+}
+
+.entre-fotos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 30%;
+  padding: 2%;
+}
+.entre-fotos img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.juntos {
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+}
+.juntos img {
+  width: 30%;
+  height: 360px;
+  object-fit: cover;
+}
+
+/*ClASES IMA*/
+.class {
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+}
+
+.item-fotos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2%;
+}
+.item-fotos img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+/*blog*/
+.hero {
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  position: relative;
+}
+.hero img {
+  display: flex;
+  width: 49%;
+  padding: 50px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 10%;
+}
+.hero iframe {
+  display: inline-block;
+  width: 49%;
+  padding: 50px;
+  border-radius: 10%;
+}
+
+.hero_conten {
+  display: inline-block;
+  width: 49%;
+  padding: 50px;
+  position: static;
+}
+.hero_conten h1 {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 30px 0;
+}
+.hero_conten p {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.hero_conten a {
+  color: rgb(234, 234, 234);
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+/*boostrap*/
+.carousel-inner {
+  height: 900px;
+}
+
+.carousel-item {
+  height: 900px;
+}
+.carousel-item img {
+  height: 900px;
+  object-fit: cover;
+}
+
+.bg-body-tertiar {
+  border-radius: 5%;
+}
+
+/*media querie*/
+/*Tablet*/
+@media only screen and (max-width: 576px) {
+  /*Estilos generales */
+  .header {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 576px) {
+  /*Estilos generales */
+  .item {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 576px) {
+  /*Blog */
+  .hero {
+    flex-direction: column;
+    align-content: center;
+  }
+  .hero img {
+    width: auto;
+  }
+  .hero iframe {
+    border: 0;
+    width: auto;
+    height: 400px;
+  }
+  .hero_conten {
+    width: auto;
+  }
+}
+@media only screen and (max-width: 576px) {
+  /*Estilos generales */
+  .column {
+    flex-direction: column;
+    align-content: center;
+  }
+  .column img {
+    width: auto;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

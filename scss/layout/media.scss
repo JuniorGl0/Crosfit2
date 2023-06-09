@@ -1,0 +1,49 @@
+/*media querie*/
+/*Tablet*/
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 576px) {
+  /*Estilos generales */
+  .header {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 576px) {
+  /*Estilos generales */
+ .item{
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  /*Blog */
+ .hero{
+    flex-direction: column;
+    align-content: center;
+    img{
+        width: auto;
+      }
+    & iframe{
+        border: 0;
+        width: auto;
+        height: 400px;
+      }
+  }
+.hero_conten{
+  width: auto;
+}
+
+}
+
+@media only screen and (max-width: 576px) {
+  /*Estilos generales */
+ .column{
+    flex-direction: column;
+    align-content: center;
+ 
+  & img{
+  width: auto;
+ }
+ }
+}

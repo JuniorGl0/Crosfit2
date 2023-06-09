@@ -1,0 +1,19 @@
+/*Import base */
+
+@import 'base/vars';
+@import 'base/utulities.scss';
+@import 'base/reset';
+
+
+//import components 
+@import 'components/narbar';
+@import 'components/footer';
+
+
+//import layout 
+@import 'layout/index';
+@import 'layout/media.scss';
+
+
+
+
