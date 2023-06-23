@@ -10,7 +10,10 @@
   }
 }
 @media only screen and (max-width: 576px) {
-  /*Estilos generales */
+  /*Clases */
+  .class{
+    padding: 6%;
+  }
  .item{
     flex-direction: column;
   }
@@ -21,6 +24,9 @@
  .hero{
     flex-direction: column;
     align-content: center;
+    p {
+      align-items: center;
+    }
     img{
         width: auto;
       }
@@ -32,6 +38,7 @@
   }
 .hero_conten{
   width: auto;
+  margin: auto;
 }
 
 }
@@ -46,4 +53,37 @@
   width: auto;
  }
  }
+}
+@media only screen and (max-width: 576px) {
+  /*COACH */
+  .coach{
+    padding :6%;
+  }
+ .entre{
+    flex-direction: column;
+    justify-items: center;
+    
+  }
+  .entre-fotos {
+    flex-direction: column;
+
+
+  & img{
+    width: 100%;
+    height: auto;
+  }
+  }
+
+  .juntos{
+    flex-direction: column;
+    justify-items: center;
+  
+    & img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+  
+
 }

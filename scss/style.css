@@ -26,7 +26,6 @@ header {
   display: flex;
   justify-content: center;
 }
-
 .MENU-NAV .navbar-brand {
   color: orange;
   font-size: 24px;
@@ -34,18 +33,45 @@ header {
   transition: 0, 3;
 }
 
+/*.footer ul {
+  display: flex;
+  justify-content: center;
+}
+ul {
+  text-align: center;
 
+   li {
+    list-style: none;
+    display: inline-block;
+    color: $main-color;
+    margin: 0px 10px;
+  }
+  & a {
+    color: $main-color;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight:bold;
+    font-size: 20px;
+    background-position: 50%, 100%;
+    background-repeat: no-repeat;
+    background-size: 0% o,3s;
+
+    &  :hover{
+        background-image: linear-gradient(orange,orange);
+        background-size: 100%, 3px;
+    }
+  }
+}
+*/
 footer {
   background-color: #f0f0f0;
   padding: 10px;
   text-align: center;
 }
-
 footer .footer-icons a {
   display: inline-block;
   margin: 5px;
 }
-
 footer .footer-icons a img {
   width: 30px;
   height: 30px;
@@ -63,7 +89,7 @@ h1 {
   font-size: 25px;
   font-weight: bold;
   margin: 30px 0;
-  
+  /* padding: 10px;*/
 }
 
 h2 {
@@ -71,6 +97,7 @@ h2 {
   font-size: 25px;
   font-weight: bold;
   margin: 30px 0;
+  /* padding: 10px;*/
 }
 
 /*COACHS*/
@@ -84,7 +111,6 @@ h2 {
   display: flex;
   justify-content: center;
 }
-
 .entre .entre-fotos {
   display: flex;
   flex-wrap: wrap;
@@ -92,13 +118,11 @@ h2 {
   align-items: center;
   padding: 2%;
 }
-
 .entre .entre-fotos img {
   width: 100%;
   height: 300px;
   object-fit: cover;
 }
-
 .entre img {
   width: 30%;
   height: 300px;
@@ -110,7 +134,6 @@ h2 {
   flex-wrap: wrap;
   justify-content: center;
 }
-
 .juntos img {
   width: 30%;
   height: 360px;
@@ -136,7 +159,6 @@ h2 {
   align-items: flex-start;
   padding: 2%;
 }
-
 .item-fotos img {
   width: 100%;
   height: 300px;
@@ -150,7 +172,6 @@ h2 {
   flex-wrap: wrap;
   width: 100%;
 }
-
 .hero img {
   display: flex;
   width: 49%;
@@ -159,7 +180,6 @@ h2 {
   object-fit: cover;
   border-radius: 10%;
 }
-
 .hero iframe {
   display: inline-block;
   width: 49%;
@@ -173,19 +193,16 @@ h2 {
   padding: 50px;
   position: static;
 }
-
 .hero_conten h1 {
   font-size: 25px;
   font-weight: bold;
   margin: 30px 0;
 }
-
 .hero_conten p {
   font-size: 15px;
   font-weight: bold;
   margin: 20px 0;
 }
-
 .hero_conten a {
   color: rgb(234, 234, 234);
   font-size: 1rem;
@@ -209,17 +226,14 @@ h2 {
 .carousel-item :active {
   display: none;
 }
-
 .carousel-item :active img {
   width: 74%;
   height: 50%;
   object-fit: cover;
 }
-
 .carousel-item :active .carousel-item {
   display: none;
 }
-
 .carousel-item :active .carousel-item img {
   width: 74%;
   height: 50%;
@@ -258,20 +272,17 @@ h2 {
 
 .form {
   padding: 6%;
-  max-width: 400px;
+  max-width: 400px; /* Ajusta el ancho máximo del formulario según tus necesidades */
   margin: 0 auto;
 }
-
 .form .form-group {
   margin-bottom: 20px;
 }
-
 .form .form-group label {
   display: block;
   font-weight: bold;
   margin-bottom: 5px;
 }
-
 .form .form-group input[type=text],
 .form .form-group input[type=email],
 .form .form-group textarea {
@@ -281,11 +292,9 @@ h2 {
   border-radius: 4px;
   font-size: 16px;
 }
-
 .form .form-group textarea {
   height: 120px;
 }
-
 .form button[type=submit] {
   display: block;
   width: 100%;
@@ -374,4 +383,4 @@ h2 {
   }
 }
 
-
+/*# sourceMappingURL=style.css.map */

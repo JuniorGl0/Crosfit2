@@ -1,4 +1,4 @@
-.footer ul {
+/*.footer ul {
   display: flex;
   justify-content: center;
 }
@@ -27,5 +27,22 @@ ul {
     }
   }
 }
+*/
+footer {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
 
+  .footer-icons {
+    a {
+      display: inline-block;
+      margin: 5px;
+
+      img {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+}
 
